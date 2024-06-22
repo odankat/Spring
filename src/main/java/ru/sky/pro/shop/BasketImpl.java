@@ -10,10 +10,13 @@ import java.util.*;
 
 public class BasketImpl implements Basket {
    private final Set<Integer> baskets = new HashSet<>();
+
    @Override
    public List<Integer> add(List<Integer> id) {
-      baskets.addAll(id);
-      return null;
+      List<Integer> list = new ArrayList<>(List.of());
+       baskets.addAll(id);
+       list.addAll(baskets);
+      return list;
    }
    @Override
    public List<Integer> get() {
