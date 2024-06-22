@@ -1,4 +1,4 @@
-package ru.sky.pro.shop.Interface;
+package ru.sky.pro.shop.api;
 
 import java.util.List;
 

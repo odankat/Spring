@@ -1,7 +1,7 @@
 package ru.sky.pro.shop;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
-import ru.sky.pro.shop.Interface.Basket;
+import ru.sky.pro.shop.api.Basket;
 
 import java.util.*;
 
